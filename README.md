@@ -11,8 +11,6 @@
 |:--------:|:---------------:|:---------------:|:---------------:|:---------------:|:---------------:|
 |  AMFOR   |  **72.1/81.7**  |  **84.1/88.8**  |  **87.4/94.2**  |  **94.0/97.4**  |  **89.0/94.5**  |
 
-## Contact
-For questions about our paper or code, please contact `author@institution.edu`.
 
 ## TODO
 - [ ] Release training code
