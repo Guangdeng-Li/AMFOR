@@ -2,6 +2,7 @@
 
 
 ## News 🔥
+- [2025.01] Update benchmark results
 - [2025.01] Code will be released soon!
 
 
@@ -16,7 +17,6 @@
 - [ ] Release training code
 - [ ] Release pretrained models
 - [ ] Add detailed documentation
-- [ ] Update benchmark results
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
