@@ -9,15 +9,15 @@
 
 
 ## AMFF-Encoder
-![组成图1](figs/3.jpg)  
+<img src="figs/3.jpg" width=400>  
 
 
 ## HPR-Decoder
-![组成图2](figs/4.jpg)  
+<img src="figs/4.jpg" width=400>  
 
 
 ## AMGDLoss
-![组成图3](figs/5.jpg)  
+<img src="figs/5.jpg" width=400> 
 
 
 ## News 🔥
