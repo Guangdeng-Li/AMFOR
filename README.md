@@ -1,23 +1,32 @@
 # AMFOR: Adaptive Multi-Granularity Fusion and Occlusion Reconstruction for Person Re-Identification 📚
 
 ## Introduction
-![Introduction](figs/1.jpg)  
+<div style="text-align: center;">
+<img src="figs/1.jpg">  
+</div>
 
 
 ## AMFOR framework
-![总体框架图](figs/2.jpg)  
+<div style="text-align: center;">
+<img src="figs/2.jpg">  
+</div>
 
 
 ## AMFF-Encoder
+<div style="text-align: center;">
 <img src="figs/3.jpg" width=400>  
-
+</div>
 
 ## HPR-Decoder
+<div style="text-align: center;">
 <img src="figs/4.jpg" width=400>  
+</div>
 
 
 ## AMGDLoss
-<img src="figs/5.jpg" width=400> 
+<div style="text-align: center;">
+<img src="figs/5.jpg"> 
+</div>
 
 
 ## News 🔥
