@@ -14,7 +14,11 @@
 
 ## 📖 Abstract
 
-Occluded person re-identification (ReID) poses substantial challenges in computer vision, primarily due to incomplete information and occlusion interference. Although Transformer architectures have become dominant in ReID due to their strong feature modeling capabilities, their lack of an adaptive weight allocation mechanism for multi-granularity feature processing limits their ability to extract generalizable and robust features. Recently, Masked Image Modeling (MIM) has demonstrated considerable promise in visual tasks, but its integration into ReID models remains underexplored. This paper presents **AMFOR** (Adaptive Multi-granularity feature Fusion and Occlusion Reconstruction), a novel framework combining MIM and Transformer architectures. AMFOR consists of three key components: AMFFEncoder, HPR-Decoder, and Teacher-Student Decoder. The AMFFEncoder enables adaptive fusion of multi-granularity features through learnable queries, allowing interaction between text-visual features and visual features extracted from multiple Transformer layers. The HPR-Decoder conceptualizes occluded regions in pedestrian images as reconstructable patches, guiding the encoder to extract more discriminative features through reconstruction. Additionally, the self-distillation teacher-student decoder is employed to refine pedestrian part features, further optimized by the proposed AMGDLoss.**This paper represents the first successful implementation of the MIM mechanism in person ReID models.** Empirical evaluations on five benchmark datasets, covering both occluded (Occluded-DukeMTMC, Occluded-REID, and PDukeMTMC-reID) and complete (Market-1501 and DukeMTMCreID) scenarios, demonstrate that AMFOR outperforms existing state-of-the-art methods in person ReID.
+Occluded person re-identification (ReID) poses substantial challenges in computer vision, primarily due to incomplete information and occlusion interference. Although Transformer architectures have become dominant in ReID due to their strong feature modeling capabilities, their lack of an adaptive weight allocation mechanism for multi-granularity feature processing limits their ability to extract generalizable and robust features. Recently, Masked Image Modeling (MIM) has demonstrated considerable promise in visual tasks, but its integration into ReID models remains underexplored. 
+
+This paper presents **AMFOR** (Adaptive Multi-granularity feature Fusion and Occlusion Reconstruction), a novel framework combining MIM and Transformer architectures. AMFOR consists of three key components: AMFFEncoder, HPR-Decoder, and Teacher-Student Decoder. The AMFFEncoder enables adaptive fusion of multi-granularity features through learnable queries, allowing interaction between text-visual features and visual features extracted from multiple Transformer layers. The HPR-Decoder conceptualizes occluded regions in pedestrian images as reconstructable patches, guiding the encoder to extract more discriminative features through reconstruction. Additionally, the self-distillation teacher-student decoder is employed to refine pedestrian part features, further optimized by the proposed AMGDLoss. 
+
+**This paper represents the first successful implementation of the MIM mechanism in person ReID models.** Empirical evaluations on five benchmark datasets, covering both occluded (Occluded-DukeMTMC, Occluded-REID, and PDukeMTMC-reID) and complete (Market-1501 and DukeMTMCreID) scenarios, demonstrate that AMFOR outperforms existing state-of-the-art methods in person ReID.
 
 ---
 
@@ -88,13 +92,69 @@ Occluded person re-identification (ReID) poses substantial challenges in compute
 - [ ] 🚀 Release training code
 - [ ] 🤖 Release pretrained models
 - [ ] 📚 Add detailed documentation
+- [ ] 🎥 Add demo videos
 - [ ] 🔧 Provide installation guide
+- [ ] 📖 Add technical paper link
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+```bash
+Python >= 3.8
+PyTorch >= 1.8.0
+CUDA >= 11.0
+```
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/AMFOR.git
+cd AMFOR
+
+# Install dependencies (coming soon)
+pip install -r requirements.txt
+```
+
+### Usage
+```bash
+# Training (coming soon)
+python train.py --config configs/amfor.yaml
+
+# Evaluation (coming soon)
+python test.py --config configs/amfor.yaml --checkpoint path/to/model.pth
+```
+
+---
+
+## 🤝 Citation
+
+If you find this work useful for your research, please consider citing:
+
+```bibtex
+@article{amfor2025,
+  title={AMFOR: Adaptive Multi-Granularity Fusion and Occlusion Reconstruction for Person Re-Identification},
+  author={Your Name and Co-authors},
+  journal={IEEE Transactions on Multimedia},
+  year={2025},
+  publisher={IEEE}
+}
+```
+
+---
+
+## 📞 Contact
+
+For questions and feedback, please contact:
+- 📧 Email: [your.email@university.edu](mailto:your.email@university.edu)
+- 🐛 Issues: [GitHub Issues](https://github.com/your-username/AMFOR/issues)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the `<mcfile name="LICENSE" path="l:\AMFOR\LICENSE"></mcfile>` file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
